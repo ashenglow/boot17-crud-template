@@ -13,7 +13,6 @@ public class CommonResponse<T> {
     public static <T> CommonResponse<T> ok(T data) {
         return new CommonResponse<>(true, "요청 성공", data);
     }
-
     public static CommonResponse<?> fail(String message) {
         return new CommonResponse<>(false, message, null);
     }
