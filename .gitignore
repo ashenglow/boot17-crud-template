@@ -7,6 +7,9 @@ build/
 !**/src/test/**/build/
 
 ### STS ###
+.project
+.classpath
+.settings/
 .apt_generated
 .factorypath
 .springBeans
